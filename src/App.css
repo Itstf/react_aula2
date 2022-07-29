@@ -4,32 +4,80 @@ body{
   margin: 25px;
 }
 
+*::selection{
+  background-color: #8e6fff;
+  color: #ffffff;
+}
+
+.tittleTest{
+  /* text-align: end; */
+  font-style: italic;
+}
+
 .titulo{
   color: #fd65a5;
-  text-align: center;
+  text-align: end;
+  font-style: oblique;
 }
 
 .titulo::selection{
-  background-color: #000000;
+  background-color: #fd65a5;
   color: #ffffff;
+}
+
+.subtittle{
+  background-color: gray;
+  color: white;
+  border-radius: 5px;
+  font-style: oblique;
 }
 
 p{
   text-align: center;
 }
 
-.verde{
-  color: #6fff87;
-  font-size: 48px;
+.numContador{
+  text-align: center;
+  margin: 15px;
 }
 
-.vermelho{
-  color: #ff0000;
-  font-size: 48px;
+button{
+  border-color: #141414;
+  border-radius: 6px;
+  color: #fd65a5;
+  font-size: large;
+  padding: 8px;
+}
+
+button:hover{
+  background-color: #d3d3d3;
+  box-shadow: 0 3px gray;  /* -> sombra na parte de baixo do botão */
+  padding: 6px;
+}
+
+.verde{
+  color: #6fff87;
+  font-size: 20px;
+}
+
+.verdeButton{
+  color: black;
+  background-color: #6fff87;
+  font-size: 20px;
+}
+
+.azul{
+  color: #485aff;
+  font-size: 20px;
+}
+
+.rosa{
+  color: #fd65a5;
+  font-size: 20px;
 }
 
 .corAluno{
-  color: #fd65a5;
+  color: #485aff;
 }
 
 .num{
@@ -40,6 +88,25 @@ li{
   list-style-type: none;
 }
 
+.card{
+  padding: 20px;
+  display: inline-block;
+  border-radius: 15px;
+  background-color: #485aff;
+  margin: 10px 0px 40px 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* =-=-=-=- */
 .App {
   text-align: center;
 }

@@ -1,0 +1,26 @@
+arquivo.jsx:
+- permite escrever html de uma forma diferente
+- junta javaScript com html
+
+<React.Fragment> faz não aparecer a div no html </React.Fragment>
+- ou apenas <> </>
+
+state = {
+- armazena as variaveis dentro
+}
+
+
+
+
+
+
+
+
+
+O que foi feito:
+- aumentar e diminuir numero do contador ao clicar em botoes.
+- mudar cor do numero ao chegar em 0 e se for maior que o zero.
+- limitar para o numero não ser menor que 0.
+- arquivo .jsx (junta javaScript com html).
+- função para mapear e retornar os alunos dentro da tag li.
+- função para retornar um nome da lista de alunos randomicamente.
